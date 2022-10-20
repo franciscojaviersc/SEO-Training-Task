@@ -11,16 +11,45 @@
 <body>
     <header>
         <h1>Sprayfixoright</h1>
+        <nav>
+            <ul>
+                <li><a class ="nav-button" href="home.html">Home</a></li>
+                <li><a class ="nav-button" href="company.html">Company</a></li>
+                <li><a class ="nav-button" href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a class ="nav-button" href="home.html">Home</a></li>
-            <li><a class ="nav-button" href="company.html">Company</a></li>
-            <li><a class ="nav-button" href="testimonials.html">Testimonials</a></li>
-        </ul>
-    </nav>
+    
     <main>
-        
+        <article class="container">
+            <section class="company">
+                <h2>Hot Lather Creams, Inc.</h2>
+                <p>This is a company profile for the company that produces Spraygelatozing, a new hair gel designed for young adolescents who are into computers.</p>
+            </section>
+            <section class="about-company">
+                <h3>About the company</h3>
+                <p>The makers of the Spraygelatozing hair gel are based in Melbourne, Australia. The company was formed in 1998 and is privately owned.</p>
+            </section>
+            <section class="products">
+                <h3>Our products</h3>
+                <p>Both male and female users appreciate spraygels' great hold, yet pleasant scent. Spraygelatozing is available in 2-ounce, 5-ounce, and 8-ounce bottles.</p>
+                <div class="products-container">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="images/product-one-160.jpeg 400w, images/product-one-360.jpeg 1800w">
+                        <img src="images/product-one-vertical.jpeg" alt="Product One Image">
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="images/product-two-160.jpeg 400w, images/product-two-360.jpeg 1800w">
+                        <img src="images/product-two-vertical.jpeg" alt="Product Two Image">
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="images/product-three-160.jpeg 400w, images/product-three-360.jpeg 1800w">
+                        <img src="images/product-three-vertical.jpeg" alt="Product Three Image">
+                    </picture>
+                </div>
+            </section>
+            
+        </article>
     </main>
 </body>
 </html>

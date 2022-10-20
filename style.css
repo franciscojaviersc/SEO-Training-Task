@@ -8,26 +8,56 @@ margin:0;
 
 header{
 text-align: center;
-margin: 0;
+margin: 2%;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
-
+h1{
+    color:rgb(16, 34, 170);
+}
 nav ul{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     list-style:none;
+    
 }
+
 
 .nav-button{
     color: inherit;
     text-decoration: none;
     font-weight: bold;
+    font-size: 12px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1.5px solid rgb(16, 34, 170);
+    border-radius: 30px;
+}
+.nav-button:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(16, 34, 170);
+    border: 1.5px solid rgb(16, 34, 170);
+    border-radius: 30px;
 }
 
 .container{
-    max-width: 992px;
+    max-width: 80vw;
     width: 100%;
+    margin: 2%;
 }
 main{
     display:flex;
@@ -37,4 +67,13 @@ main{
 
 abbr{
     text-decoration: none;
+}
+.products-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.products-container picture{
+    margin: 0.5rem;
 }
