@@ -12,18 +12,24 @@ margin: 2%;
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
 h1{
     color:rgb(16, 34, 170);
+}
+.nav-list li{
+    margin: 4px;
 }
 nav ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style:none;
+    flex-wrap: wrap;
     
 }
+
 
 
 .nav-button{
@@ -32,10 +38,10 @@ nav ul{
     font-weight: bold;
     font-size: 12px;
     margin: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border: 1.5px solid rgb(16, 34, 170);
     border-radius: 30px;
 }
@@ -45,10 +51,10 @@ nav ul{
     font-weight: bold;
     font-size: 12px;
     margin: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     background-color: rgb(16, 34, 170);
     border: 1.5px solid rgb(16, 34, 170);
     border-radius: 30px;
@@ -56,7 +62,6 @@ nav ul{
 
 .container{
     max-width: 80vw;
-    width: 100%;
     margin: 2%;
 }
 main{
@@ -75,5 +80,5 @@ abbr{
     justify-content: space-around;
 }
 .products-container picture{
-    margin: 0.5rem;
+    margin: 2%;
 }
